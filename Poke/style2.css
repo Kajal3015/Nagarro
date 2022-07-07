@@ -1,0 +1,25 @@
+*{
+    margin:1rem;
+    padding:0px;
+}
+
+body{
+    background-color: yellow;
+}
+
+.gallerys{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery{
+  padding-top: 3rem;
+}
+
+#one{
+    justify-content: space-around;
+}
+
+img{
+    border-radius: 3rem;
+}
