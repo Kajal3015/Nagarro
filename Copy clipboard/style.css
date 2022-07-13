@@ -1,0 +1,10 @@
+*{
+    margin:0.7rem;
+}
+.one, .two{
+    text-align: center;
+}
+
+#btn{
+    text-align:center;
+}

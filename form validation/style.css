@@ -1,0 +1,12 @@
+.one{
+    margin-top: 7rem;
+    color: coral;
+}
+
+body{
+    background-color: skyblue;
+}
+ .two{
+    border-color: blueviolet;
+    border-width: 2px;
+ }
