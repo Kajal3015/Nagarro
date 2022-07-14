@@ -7,11 +7,12 @@ body {
 }
 
 header {
-    height: 4rem;
+    height: 8vh;
+    min-width: 80vw;
     background-color: white;
     display: flex;
     justify-content: flex-start;
-    padding-left: 40px;
+    padding-left: 4vw;
     font-weight: bold;
     font-size: x-large;
 }
@@ -22,7 +23,7 @@ ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding-top: 1rem;
+    padding-top: 2vh;
 }
 
 li:hover {

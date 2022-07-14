@@ -5,7 +5,7 @@
     text-transform:capitalize;
   }
   body{
-    min-height:100vh;
+    min-height:80vh;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -20,6 +20,7 @@
     box-shadow: 0 5 px 10px rgba(0,0,0,0.5);
     padding:10px;
     overflow-y:auto;
+    margin-top: -1rem;
   }
   #input{
     height:50px;
@@ -29,11 +30,16 @@
     border-radius:5px;
     background:#666;
     color:#fff;
-    padding:0 10px;
+    padding:0 15px;
     margin:15px 0;
   }
   #input::placeholder{
     color:#bbb;
+  }
+  ul{
+    position: relative;
+    text-align: center;
+    font-size: 14px;
   }
   li{
     background:#eee;
@@ -42,6 +48,8 @@
     border-radius:50px;
     margin:15px 0;
     padding:10px;
+    list-style: none;
+    text-align: left;
   }
   li .fa-check,.fa-trash
   {
@@ -54,7 +62,7 @@
     
   }
  li .fa-trash{
-    right:35rem;
+    right:20px;
     color:red;
     
  }
