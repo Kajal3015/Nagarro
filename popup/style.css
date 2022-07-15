@@ -1,0 +1,40 @@
+#box
+{
+    background-image: url('https://images.pexels.com/photos/6331082/pexels-photo-6331082.jpeg?auto=compress&cs=tinysrgb&w=600');
+    width: auto;
+    height: auto;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    visibility: hidden;
+    border: 2px solid rgb(11, 167, 24);
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+
+.clicks
+{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.clicks:hover
+{
+    background-color: rgb(144, 222, 253);
+    font-weight: bold;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/4709471/pexels-photo-4709471.jpeg?auto=compress&cs=tinysrgb&w=600');
+    height: 90vh;
+}
+
+#box.show
+{
+    visibility: visible;
+}
+
+.mybtn{
+    border-radius: 20px;
+    background-image: url('https://images.pexels.com/photos/1076885/pexels-photo-1076885.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
