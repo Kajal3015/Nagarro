@@ -17,8 +17,8 @@ $(document).ready(()=>{
       $('#usernamevalidation').hide();
       $('#mailvalidation').hide();
 
-      var Error = true;
-      var mail_error = true;
+      var Error = false;
+      var mail_error = false;
 
       $('#username').keyup(function () {
         username_validation();

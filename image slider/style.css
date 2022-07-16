@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    margin: 2vw;
+}
+
+.one {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: 3vw;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+}
+
+.ab {
+    margin-right: 1vw;
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+.btn {
+    border: none;
+    background-color: white;
+    font-size: 5vw;
+}
+
+.image {
+    margin-bottom: 1vw;
+    border: 2px solid salmon;
+    width: 60vw;
+    height: 30vw
+}
+
+.active {
+    color: red;
+}
