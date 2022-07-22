@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: lightblue;
 }
 
 h1 {
@@ -29,7 +29,7 @@ h1 {
 
 .btn {
     border: none;
-    background-color: white;
+    background-color: lightblue;
     font-size: 5vw;
 }
 
