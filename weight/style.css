@@ -1,0 +1,27 @@
+body{
+    background-image: url('https://cdn.wallpapersafari.com/7/42/xqlgfA.jpg');
+}
+.ab{
+    margin-top: 11vw;
+    width: 55vw;
+}
+
+.btn{
+    margin-top: 2vh;
+    background-color: grey;
+    color:black;
+    border-color: grey;
+    height: 5.5vh;
+}
+
+.weightdisplay{
+    display: flex;
+    justify-content: space-around;
+}
+
+.display{
+    margin-top: 3vh;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}

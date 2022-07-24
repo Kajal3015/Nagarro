@@ -5,20 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weight Converter</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="card text-center" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+<body class="d-flex justify-content-center align-items-center bg-secondary">
+    <div class="card ab" style="width: 18rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv3CoQKhb-iPnO6u0q7uT3lYenAXFEFCmmTw&usqp=CAU" class="card-img-top" alt="..." height="150vh">
         <div class="card-body">
-          <h5 class="card-title">Weight Converter</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Enter Weight in grams</h5>
+          <input class="card-text" placeholder="Enter weight" type="number">grams</input><br>
+          <div class="weightdisplay">
+          <button class="btn" onclick="CalculateWeight()">Calculate the weight</button>
+          <p class="display"></p>
+          </div>
         </div>
       </div>
 </body>
+<script src="./script.js"></script>
 </html>
