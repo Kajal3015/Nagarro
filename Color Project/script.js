@@ -15,7 +15,6 @@ for(let i=0;i<colorArr.length;i++){
             modal.style.color="black";
             modal.style.border="2px solid black";
             modal1.style.backgroundColor = color[i];
-        }
-         
+        }         
     })
 }
