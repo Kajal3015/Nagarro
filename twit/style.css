@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    height: 93vh;
+    width: 55vw;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7vw;
+    margin: 2vh 4vw 2vh 4vw;
+}
+
+.fdiv:hover{
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+}
+
+.icon {
+    margin-top: 5vh;
+    margin-left: 1vw;
+}
+
+h1 {
+    font-size: 3.5vw;
+    margin :3vw 0vw 3vw 2vw;
+}
+
+h2 {
+    margin: 2vw 1vw 2vw 2vw;
+}
+
+.signopt{
+    margin-left: 2vw;
+    width:18vw;
+    padding: 1vw;
+}
+.opt1 {
+    border-radius: 16px;
+    padding: 7.5px 56px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-bottom: 0.5vw;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.opt2 {
+    border-radius: 16px;
+    padding: 7.5px 60px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+}
+.line{
+    width: 100%; 
+    height: 10px; 
+    border-bottom: 1px solid black; 
+    text-align: center;
+    margin:1vw 0vw 1vw 0vw;
+}
+.hr{
+    font-size: 15px; 
+    background-color: white; 
+    padding: 0 5px;
+}
+.opt3 {
+    border-radius: 16px;
+    padding: 8px 44px;
+    background-color: #468eec;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+}
+.one{
+    padding-right: 0.3vw;
+}
+
+pre{
+    font-size: 0.7vw;
+    padding: 0.5vw;
+}
+
+.already{
+    margin-top: 3vw;
+}
+.opt4{
+    border-radius: 16px;
+    padding: 0.4vw 7vw;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 3vh;
+    cursor: pointer;
+    font-size: 12px;
+}
