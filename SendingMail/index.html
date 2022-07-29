@@ -31,24 +31,26 @@
           </div>
         </div>
         <div class="col-12">
-          <button type="submit" class="btn btn-primary" onclick="Email.send()">Sign in</button>
+          <button type="submit" class="btn btn-primary" onclick="SendEmail()">Sign in</button>
         </div>
       </form>
 </body>
 <script src="https://smtpjs.com/v3/smtp.js">
 </script>
 <script>
-Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : document.getElementById("inputName"),
-    Password : "password",
-    To : "jhaman9810@gmail.com",
-    From : "jhaman9810@gmail.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
+  function SendEmail(){
+    Email.send({
+      Host : "smtp.gmail.com",
+      Username : "Kajal jha",
+      Password : "Kajal@2001",
+      To : "jhaman9810@gmail.com",
+      From : "jhaman9810@gmail.com",
+      Subject : "This is the subject",
+      Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+  }
 
 </script>
 </html>
