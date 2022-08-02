@@ -17,6 +17,8 @@ function getMovieData(){
              <b>Release Date: </b>${movie.results[i].release_date}<br>
              <br><b>Ratings: </b>${movie.results[i].vote_average}</p>
             `
+        }else{
+            movieData.innerHTML=`<center><h1>Movie not found</h1></center>`
         }
         
     }

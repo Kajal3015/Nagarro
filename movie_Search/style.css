@@ -1,8 +1,16 @@
+.maindiv{
+    margin:2vw 5vw 0vw 25vw;
+    
+    overflow: hidden;
+    background-color: lavender;
+    max-width: 75vw;
+}
+
+.abc{
+    max-width: 43vw;
+}
 .one{
-    margin-top:4vh;
-    margin-right: 4vw;
-    margin-left: 2vw;
-    display: flex;
+    margin:4vh 2vw 2vw 2vw;
     
 }
 
@@ -10,5 +18,10 @@ body{
     max-width: 80vw;
     max-height: 90vh;
     background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000')
+}
+
+.movieData{
+    max-width: 52vw;
+    margin:1vh 2vw 2vw 2vw;
 }
 
