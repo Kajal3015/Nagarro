@@ -8,7 +8,7 @@ function getMovieData(){
     then(movie=>{
          console.log(movie);
          for(let i=0;i<movie.results.length;i++){
-            let datamovie=movie.results[i].original_title.toLowerCase()
+            let datamovie=movie.results[i].title.toLowerCase()
         if(datamovie.includes(movieName)){
             movieData.innerHTML=`<center><h1>${movie.results[i].title}</h1></center><br>
             <center><img src="https://image.tmdb.org/t/p/original${movie.results[i].backdrop_path}"  alt="" width="370vh" height="200vh"/></center><br>

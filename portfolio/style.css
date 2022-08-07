@@ -3,6 +3,7 @@
     padding: 0px;
     color: wheat;
 }
+
 body {
     background-color: rgba(0, 0, 0, 0.89);
     min-height: 90vh;
@@ -50,6 +51,12 @@ h3 {
     color: whitesmoke;
 }
 
+.ttt{
+    margin-top: 6.5rem;
+    margin-left: 1rem;
+    color: wheat;
+    font-size: 1.8em;
+}
 .one {
     padding-top: 2rem;
     padding-left: 5rem;
@@ -96,6 +103,11 @@ p{
     display: flex;
 }
 
+.project{
+    margin-top: 4vh;
+    display: none;
+}
+
 
 a{
     padding: 0.5vw;
@@ -120,9 +132,10 @@ a{
 
 .projects{
     margin-top: 4vh;
-    text-align: center;
-    display: none;
-    margin-right: 4vw;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .skills{
@@ -133,10 +146,44 @@ a{
 
 .nontech{
     margin-right: 6vw;
+    padding-left: 1vw;
 }
 
 .contact{
-    margin: 1vh 3vw 0vw 4vw;
+    margin: 4vh 3vw 0vw 4vw;
     text-align: center;
     display: none;
+}
+
+.ab{
+    margin-top: 11vw;
+    width: 55vw;
+}
+
+.btn{
+    margin-top: 2vh;
+    background-color: grey;
+    color:black;
+    border-color: grey;
+    height: 5.5vh;
+}
+
+.color{
+    margin: 2em;
+    background-color: rgb(207, 146, 65);
+}
+
+.c1{
+    color:black
+}
+
+.image{
+    margin: 0vw 1vw 0vh 1vw;
+    width: 90%;
+    height: 10em;
+}
+
+
+.ppp{
+    margin-left: 45vw;
 }
